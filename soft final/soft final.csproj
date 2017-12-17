@@ -78,18 +78,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Hero\BaseCharacterInformation.cs" />
-    <Compile Include="Assets\Script\Hero\Bullet.cs" />
-    <Compile Include="Assets\Script\Hero\CamControl\FollowCam.cs" />
-    <Compile Include="Assets\Script\Hero\FireCtrl.cs" />
-    <Compile Include="Assets\Script\Hero\HeroCharacter.cs" />
-    <Compile Include="Assets\Script\Hero\HeroInformation.cs" />
-    <Compile Include="Assets\Script\Monster\MinionMonster.cs" />
-    <Compile Include="Assets\Script\Monster\MonoserManager.cs" />
-    <Compile Include="Assets\Script\Monster\MonsterInformation.cs" />
     <Compile Include="Assets\Script\UI\DrawBar.cs" />
     <Compile Include="Assets\Script\UI\MyGizmo.cs" />
     <Compile Include="Assets\Script\UI\UIManager.cs" />
+    <Compile Include="Assets\Script\Unit\Hero\BaseCharacterInformation.cs" />
+    <Compile Include="Assets\Script\Unit\Hero\Bullet.cs" />
+    <Compile Include="Assets\Script\Unit\Hero\CamControl\FollowCam.cs" />
+    <Compile Include="Assets\Script\Unit\Hero\FireCtrl.cs" />
+    <Compile Include="Assets\Script\Unit\Hero\HeroCharacter.cs" />
+    <Compile Include="Assets\Script\Unit\Hero\HeroInformation.cs" />
+    <Compile Include="Assets\Script\Unit\Monster\MinionMonster.cs" />
+    <Compile Include="Assets\Script\Unit\Monster\MonsterInformation.cs" />
+    <Compile Include="Assets\Script\Unit\UnitManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

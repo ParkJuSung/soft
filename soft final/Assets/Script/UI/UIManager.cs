@@ -27,8 +27,9 @@ public class UIManager{
 
 	public void DrawBar(Slider ber, GameObject HeadUpPosition,int barValue ,int MAX)
 	{
-		ber.value = (float)barValue / MAX;
-		ber.transform.position = HeadUpPosition.transform.position;
+			ber.value = (float)barValue / MAX;
+			ber.transform.position = HeadUpPosition.transform.position;
+
 	}
 
 	/*public static UIManager Getinstance()
